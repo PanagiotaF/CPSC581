@@ -105,5 +105,14 @@
   <ItemGroup>
     <Resource Include="heart-transparent.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="heart-transparent - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="juju-transparent - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="juju - Copy.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
