@@ -1,0 +1,16 @@
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\bin\Debug\egg-beingcute.exe.config
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\bin\Debug\egg-beingcute.exe
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\bin\Debug\egg-beingcute.pdb
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg-beingcute.csprojAssemblyReference.cache
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\MainWindow.g.cs
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\App.g.cs
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg-beingcute_MarkupCompile.cache
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg-beingcute_MarkupCompile.lref
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\MainWindow.baml
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg-beingcute.g.resources
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg_beingcute.Properties.Resources.resources
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg-beingcute.csproj.GenerateResource.cache
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg-beingcute.csproj.CoreCompileInputs.cache
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg-beingcute.exe
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg-beingcute.pdb
+C:\Users\karen\source\repos\egg-beingcute\egg-beingcute\obj\Debug\egg-beingcute_Content.g.cs
