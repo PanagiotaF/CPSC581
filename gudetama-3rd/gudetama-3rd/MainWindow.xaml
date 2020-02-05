@@ -70,7 +70,7 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="letmego">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gudeside">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
@@ -207,7 +207,7 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="letmego">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gudeside">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
@@ -304,7 +304,7 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="letmego">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gudeside">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
@@ -374,7 +374,7 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="letmego">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gudeside">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
@@ -466,7 +466,7 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="letmego">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gudeside">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
@@ -554,7 +554,7 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="letmego">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gudeside">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
@@ -651,65 +651,11 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="letmego">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0.005"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gudeside">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="letmego">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="falling">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="boink_without">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="chopsticks">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="heart2">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="heart3">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="juju_transparen____">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gudetama">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="purple1">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="purple2">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hanging1">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hanging2">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="chopsticks_big">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="abouttofall">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="almostfalling">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="chillingwhite">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="chillingegg1">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="meh">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="chop">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="letmego">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0.879"/>
             </DoubleAnimationUsingKeyFrames>
@@ -724,11 +670,11 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="-3.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-7.5"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="image1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="gudeside">
                 <EasingDoubleKeyFrame KeyTime="0" Value="53.333"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="513.999"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="image1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="gudeside">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-211.333"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-215.333"/>
             </DoubleAnimationUsingKeyFrames>
@@ -743,8 +689,8 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid>
-        <Image x:Name="boink_without" Margin="258.666,0,275.665,84.667" Source="boink-without.png" Stretch="Fill"/>
-        <Image x:Name="chopsticks" Margin="224,-11.667,213.665,84.667" Source="chopsticks.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="boink_without" Margin="258.666,0,275.665,84.667" Source="boink-without.png" Stretch="Fill" d:IsHidden="True"/>
+        <Image x:Name="chopsticks" Margin="224,-11.667,213.665,84.667" Source="chopsticks.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -754,7 +700,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="heart1" Margin="462.999,101.333,248.997,235.334" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0">
+        <Image x:Name="heart1" Margin="462.999,101.333,248.997,235.334" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -764,7 +710,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="heart2" Margin="492.335,185.333,213.665,147.335" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="heart2" Margin="492.335,185.333,213.665,147.335" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -774,7 +720,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="heart3" Margin="224,134.666,479.999,194.001" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="heart3" Margin="224,134.666,479.999,194.001" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -784,11 +730,11 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="juju_transparen____" Margin="208.336,47.666,230.997,56.667" Source="juju-transparent.png" Stretch="Fill"/>
-        <Image x:Name="middle_gudetama____" Margin="294.167,89,300.166,69.667" Source="middle-gudetama-transparent.png" Stretch="Fill" Opacity="0"/>
-        <Image x:Name="backtonormal_tr____" Margin="294.167,155.5,289.665,97.167" Source="backtonormal-transparent.png" Stretch="Fill" Opacity="0"/>
-        <Image x:Name="gudetama" Margin="196.334,26.666,201.166,84.667" Source="gudetama-transparent.png" Stretch="Fill"/>
-        <Image x:Name="purple1" Margin="277.333,101.333,435.666,163.668" Source="purple2-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="juju_transparen____" Margin="208.336,47.666,230.997,56.667" Source="juju-transparent.png" Stretch="Fill" d:IsHidden="True"/>
+        <Image x:Name="middle_gudetama____" Margin="294.167,89,300.166,69.667" Source="middle-gudetama-transparent.png" Stretch="Fill" Opacity="0" d:IsHidden="True"/>
+        <Image x:Name="backtonormal_tr____" Margin="294.167,155.5,289.665,97.167" Source="backtonormal-transparent.png" Stretch="Fill" Opacity="0" d:IsHidden="True"/>
+        <Image x:Name="gudetama" Margin="196.334,26.666,201.166,84.667" Source="gudetama-transparent.png" Stretch="Fill" d:IsHidden="True"/>
+        <Image x:Name="purple1" Margin="277.333,101.333,435.666,163.668" Source="purple2-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -798,7 +744,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="purple2" Margin="422.336,64.5,248.997,211.334" Source="purple-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="purple2" Margin="422.336,64.5,248.997,211.334" Source="purple-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -808,9 +754,9 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <MediaElement x:Name="voice" Margin="-161.333,512.667,954.666,-92" Stretch="Fill"/>
-        <Image x:Name="hanging1" Margin="318.334,10,-0.001,56.667" Source="falling1.png" Stretch="Fill"/>
-        <Image x:Name="hanging2" Margin="323.337,1.651,-12.851,54.133" Source="handing-tleft.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <MediaElement x:Name="voice" Margin="-161.333,512.667,954.666,-92" Stretch="Fill" d:IsHidden="True"/>
+        <Image x:Name="hanging1" Margin="318.334,10,-0.001,56.667" Source="falling1.png" Stretch="Fill" d:IsHidden="True"/>
+        <Image x:Name="hanging2" Margin="323.337,1.651,-12.851,54.133" Source="handing-tleft.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -820,8 +766,8 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="chopsticks_big" Margin="318.334,10,-0.001,56.667" Source="chopstick-t.png" Stretch="Fill"/>
-        <Image x:Name="almostfalling" Margin="429.737,33.044,121.43,104.634" Source="falling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="chopsticks_big" Margin="318.334,10,-0.001,56.667" Source="chopstick-t.png" Stretch="Fill" d:IsHidden="True"/>
+        <Image x:Name="almostfalling" Margin="429.737,33.044,121.43,104.634" Source="falling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -831,7 +777,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="abouttofall" Margin="172.167,26.666,-151.333,-21.667" Source="falling2.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="abouttofall" Margin="172.167,26.666,-151.333,-21.667" Source="falling2.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -841,7 +787,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="falling" Margin="196.334,-183.332,-135.503,176.001" Source="falling3-t (1).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="falling" Margin="196.334,-183.332,-135.503,176.001" Source="falling3-t (1).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -851,7 +797,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="chillingwhite" Margin="236.67,112,248.997,69.667" Source="chilling-white-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="chillingwhite" Margin="236.67,112,248.997,69.667" Source="chilling-white-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -861,7 +807,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="chillingegg1" Margin="224,89,236.502,69.667" Source="chilling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="chillingegg1" Margin="224,89,236.502,69.667" Source="chilling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -871,7 +817,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="meh" Margin="124.881,222.442,-840.12,-644.891" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="meh" Margin="124.881,222.442,-840.12,-644.891" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -881,8 +827,8 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="image" Margin="196.334,117,236.502,84.667" Source="stoppp.png" Stretch="Fill" Opacity="0"/>
-        <Image x:Name="chop" Margin="282.9,-18.176,84.569,58.158" Source="chopsticks.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="image" Margin="196.334,117,236.502,84.667" Source="stoppp.png" Stretch="Fill" Opacity="0" d:IsHidden="True"/>
+        <Image x:Name="chop" Margin="282.9,-18.176,84.569,58.158" Source="chopsticks.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -902,7 +848,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="image1" Margin="444.336,176.167,123.333,-35.666" Source="chop-drag.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="gudeside" Margin="444.336,176.167,123.333,-35.666" Source="chop-drag.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
