@@ -122,6 +122,8 @@
     <Resource Include="purple-transparent.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="chop-drag.png" />
+    <Resource Include="drag-chop.png" />
     <Resource Include="stoppp.png" />
     <Resource Include="stop.png" />
     <Resource Include="stahp.png" />
