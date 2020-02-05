@@ -59,164 +59,521 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gude">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.1" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Key="Juju-egg">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="hearttrans3">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.013"/>
+        <Storyboard x:Key="poking">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="chopsticks">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-54.667"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="2"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="hearttrans3">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.055"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="chopsticks">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-1.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.999"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="hearttrans3">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-3"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-1"/>
+        </Storyboard>
+        <Storyboard x:Key="juju">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="heart1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="21.486"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="hearttrans3">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-1.333"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-10"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-1.333"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="heart3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-19.028"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="hearttrans3">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="24.903"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="heart2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="10.596"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="hearttrans2">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="30.516"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-41.176"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="heart2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="1.135"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="hearttrans">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.376"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="heart2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="1.11"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="hearttrans">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.496"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="heart2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-6.667"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="hearttrans">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-0.333"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="heart2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="3.667"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="hearttrans">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="23.333"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="heart3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="21.333"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="hearttrans">
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="16.583"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-16.045"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="29.2"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="heart3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="5.333"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="hearttrans2">
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="2"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="heart1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="10"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="hearttrans2">
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-7.667"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="heart1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="4.666"/>
             </DoubleAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="hearttrans2">
-                <DiscreteObjectKeyFrame KeyTime="0:0:2" Value="{x:Static Visibility.Visible}"/>
-                <DiscreteObjectKeyFrame KeyTime="0:0:3" Value="{x:Static Visibility.Visible}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="hearttrans">
-                <DiscreteObjectKeyFrame KeyTime="0:0:3" Value="{x:Static Visibility.Visible}"/>
-                <DiscreteObjectKeyFrame KeyTime="0:0:4" Value="{x:Static Visibility.Visible}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="hearttrans3">
-                <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="{x:Static Visibility.Visible}"/>
-                <DiscreteObjectKeyFrame KeyTime="0:0:5" Value="{x:Static Visibility.Visible}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hearttrans2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="heart1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1.058"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="heart1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1.073"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="heart3">
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="heart2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="heart1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="juju_transparen____">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0.9"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="middle_gudetama____">
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="backtonormal_tr____">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="gudetama">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="purple1">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.216"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="1.216"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="1.343"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="purple1">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.077"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="1.077"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="1.164"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="purple1">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-8.667"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-8.667"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-14.667"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="purple1">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="purple2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.077"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="purple2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.101"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="purple2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="4.667"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="14"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="purple2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-7.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-15.333"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="purple1">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-7.938"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="purple2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="8.291"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="14.168"/>
+            </DoubleAnimationUsingKeyFrames>
+            <MediaTimeline BeginTime="0:0:3" Source="Record (online-voice-recorder.com).mp3" Storyboard.TargetName="voice" d:DesignTimeNaturalDuration="1.44"/>
+        </Storyboard>
+        <Storyboard x:Key="falling">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hanging2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hanging1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="drop">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hanging1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="almostfalling">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hearttrans">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="chopsticks_big">
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="abouttofall">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="0.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hearttrans3">
                 <EasingDoubleKeyFrame KeyTime="0:0:4" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="0.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="jujutrans">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5.6" Value="0.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="0.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="0.3"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.7" Value="0.05"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gudetrans">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5.6" Value="0.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="0.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.1" Value="0.7"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="0.7"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.3" Value="0.75"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="0.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.5" Value="0.9"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.7" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.6" Value="0.7"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.7" Value="0.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="0.15"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.9" Value="0.9"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:8" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="back">
                 <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.5" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.6" Value="0.29"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.7" Value="0.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="0.75"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.9" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="jujutrans">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.6" Value="0.991"/>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="abouttofall">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-200"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="jujutrans">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="abouttofall">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="8"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="falling">
+                <EasingDoubleKeyFrame KeyTime="0" Value="5.333333333333333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="1.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="8"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="falling">
+                <EasingDoubleKeyFrame KeyTime="0" Value="333.33333333333331"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="3.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="500"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="falling">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:7.6" Value="1.333"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="back">
-                <EasingDoubleKeyFrame KeyTime="0:0:7.6" Value="0.992"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="back">
-                <EasingDoubleKeyFrame KeyTime="0:0:7.6" Value="0.667"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Key="chilling">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="chillingegg1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.79"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="chillingegg1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.816"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="chillingegg1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="6"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="chillingegg1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="18"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="chillingegg1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="21.341"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-9.298"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="13.395"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:8" Value="-12.482"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:10" Value="37.994"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="stop">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="meh">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-507"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="meh">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-393.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="meh">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.21"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="meh">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.242"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="chop">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-31.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-15.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="chop">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="24.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-12.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="chop">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.038"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="chop">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.06"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="chop">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="meh">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="letmego">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="letmego">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.879"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="letmego">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.884"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="letmego">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-7.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="452.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="letmego">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-3.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-7.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="gudeside">
+                <EasingDoubleKeyFrame KeyTime="0" Value="53.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="513.999"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="gudeside">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-211.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-215.333"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
     </Window.Resources>
-    <Window.Triggers>
-        <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown">
-            <BeginStoryboard x:Name="EggRoll_BeginStoryboard" Storyboard="{StaticResource EggRoll}"/>
-        </EventTrigger>
-        <EventTrigger RoutedEvent="UIElement.MouseEnter">
-            <BeginStoryboard x:Name="Juju_egg_BeginStoryboard" Storyboard="{StaticResource Juju-egg}"/>
-        </EventTrigger>
-        <EventTrigger RoutedEvent="UIElement.MouseLeave">
-            <StopStoryboard BeginStoryboardName="Juju_egg_BeginStoryboard"/>
-        </EventTrigger>
-    </Window.Triggers>
     <Grid>
-        <Image x:Name="gude" Margin="254.776,110,250.333,110.001" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0">
+        <Grid x:Name="pokinggrid" Margin="224,-11.667,213.665,84.667" d:IsHidden="True">
+            <Image x:Name="boink_without" Margin="34.666,11.667,62,0" Source="boink-without.png" Stretch="Fill"/>
+            <Image x:Name="chopsticks" Source="chopsticks.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+        <Grid x:Name="jujugrid" Margin="208.336,47.666,213.665,56.667" d:IsHidden="True">
+            <Image x:Name="heart1" Margin="254.663,53.667,35.332,178.667" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="heart2" Margin="283.999,137.667,0,90.668" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="heart3" Margin="15.664,87,266.334,137.334" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="juju_transparen____" Margin="0,0,17.332,0" Source="juju-transparent.png" Stretch="Fill"/>
+            <Image x:Name="middle_gudetama____" Margin="85.831,41.334,86.501,13" Source="middle-gudetama-transparent.png" Stretch="Fill" Opacity="0"/>
+            <Image x:Name="backtonormal_tr____" Margin="85.831,107.834,76,40.5" Source="backtonormal-transparent.png" Stretch="Fill" Opacity="0"/>
+        </Grid>
+        <Grid x:Name="rottengrid" Margin="196.334,26.666,201.166,84.667" d:IsHidden="True">
+            <Image x:Name="gudetama" Source="gudetama-transparent.png" Stretch="Fill"/>
+            <Image x:Name="purple1" Margin="80.999,74.667,234.5,79.001" Source="purple2-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="purple2" Margin="226.002,37.834,47.831,126.667" Source="purple-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+        <MediaElement x:Name="voice" Margin="-161.333,512.667,954.666,-92" Stretch="Fill" d:IsHidden="True"/>
+        <Grid x:Name="falling_hanging_grid" Margin="172.167,-183.332,-151.333,-21.667" d:IsHidden="True">
+            <Image x:Name="hanging2" Margin="149.337,183.651,140.315,77.132" Source="handing-tleft.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-5.465"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="hanging1" Margin="146.167,193.332,151.332,78.334" Source="falling1.png" Stretch="Fill"/>
+            <Image x:Name="chopsticks_big" Margin="146.167,193.332,151.332,78.334" Source="chopstick-t.png" Stretch="Fill"/>
+            <Image x:Name="almostfalling" Margin="257.57,216.376,272.763,126.301" Source="falling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-7.065"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="abouttofall" Margin="0,209.998,0,0" Source="falling2.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="falling" Margin="24.167,0,15.83,197.668" Source="falling3-t (1).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+        <Grid x:Name="chillgrid" Margin="224,89,236.502,69.667" d:IsHidden="True">
+            <Image x:Name="chillingwhite" Margin="12.67,23,12.495,0" Source="chilling-white-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="chillingegg1" Source="chilling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+        <Grid x:Name="stopgrid" Margin="131.622,117,-836.212,-651.024" d:IsHidden="True">
+            <Image x:Name="meh" Margin="0,92.818,0,0" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="image" Margin="64.712,0,1072.714,735.691" Source="stoppp.png" Stretch="Fill" Opacity="0.5" d:IsHidden="True"/>
+            <Image x:Name="chop" Margin="148.9,-138.176,923.159,712.182" Source="chopsticks.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+        <Grid x:Name="rollinggrid" Margin="-180.338,-282.195,216.581,110.001" d:IsHidden="True">
+            <Image x:Name="Egg" Margin="0,337.013,582.757,71.181" Source="egg.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="gude" Margin="435.114,392.195,33.752,0" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="egg_with_shel" Margin="404.757,0,0,328.194" Source="crackedagain.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+        <Grid x:Name="lemmego" Margin="329.215,111.591,123.333,-35.666" d:IsHidden="True">
+            <Image x:Name="letmego" Margin="0,0,86.207,143.926" Source="lemmego.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="gudeside" Margin="115.121,64.576,0,0" Source="chop-drag.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+        <Image x:Name="ClickChop" Margin="9,321.667,663.119,-21.667" Source="chopsticks.png" Stretch="Fill" d:IsHidden="True"/>
+        <Image x:Name="maingude" Margin="241.943,110,263.166,110.001" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -226,79 +583,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Egg" Margin="-180.338,54.818,799.338,181.182" Source="egg.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="egg_with_shel" Margin="224.419,-282.195,216.581,438.195" Source="crackedagain.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="hearttrans" Margin="475,143,273.333,236.667" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" AutomationProperties.IsOffscreenBehavior="Offscreen" Opacity="0">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="16.583"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="hearttrans2" Margin="268.261,161.708,465.927,201.375" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" AutomationProperties.IsOffscreenBehavior="Offscreen" Opacity="0">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-16.271"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="hearttrans3" Margin="476.873,229.517,262.204,143.185" Source="heart-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" AutomationProperties.IsOffscreenBehavior="Offscreen" Opacity="0">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-24.705"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="middle" Margin="320.666,110,305.666,89.334" Source="middle-gudetama-transparent.png" Stretch="Fill" AutomationProperties.IsOffscreenBehavior="Offscreen" Opacity="0"/>
-        <Image x:Name="gudetrans" Margin="325.999,110,305.666,89.334" Source="middle-gudetama-transparent.png" Stretch="Fill" Opacity="0" AutomationProperties.IsOffscreenBehavior="Offscreen"/>
-        <Image x:Name="back" Margin="320.666,166.333,295.667,110.001" Source="backtonormal-transparent.png" Stretch="Fill" Opacity="0" RenderTransformOrigin="0.5,0.5" AutomationProperties.IsOffscreenBehavior="Offscreen">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="backorg" Margin="320.666,166.333,295.667,110.001" Source="backtonormal-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0" d:IsHidden="True">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="jujutrans" Margin="252,81,250.333,78.667" Source="juju-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" AutomationProperties.IsOffscreenBehavior="Offscreen" d:IsHidden="True" Opacity="0">
+        <Image x:Name="mainegg" Margin="282,111.591,337,124.409" Source="egg.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

@@ -110,5 +110,17 @@
     <Resource Include="meh.png" />
     <Resource Include="meh2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chopsticks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="boink-without.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="backtonormal-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chopsticks.cur" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
