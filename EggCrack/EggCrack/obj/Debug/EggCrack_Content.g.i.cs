@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("2.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("purple-transparent.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("purple2-transparent.png")]
 
 

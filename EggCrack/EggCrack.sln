@@ -5,10 +5,6 @@ VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EggCrack", "EggCrack\EggCrack.csproj", "{68C3E545-4639-428D-92CF-1E5A1498DA7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "egg-beingcute", "..\..\..\Documents\GitHub\CPSC581\egg-beingcute\egg-beingcute.csproj", "{7122B39D-2498-4FD2-B5CF-DFEBE92FCE43}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gudetama-3rd", "..\..\..\Documents\GitHub\CPSC581\gudetama-3rd\gudetama-3rd\gudetama-3rd.csproj", "{ED54B288-1CA2-4EBF-A33A-6C6D99EDA8EE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{68C3E545-4639-428D-92CF-1E5A1498DA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C3E545-4639-428D-92CF-1E5A1498DA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C3E545-4639-428D-92CF-1E5A1498DA7B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7122B39D-2498-4FD2-B5CF-DFEBE92FCE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7122B39D-2498-4FD2-B5CF-DFEBE92FCE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7122B39D-2498-4FD2-B5CF-DFEBE92FCE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7122B39D-2498-4FD2-B5CF-DFEBE92FCE43}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED54B288-1CA2-4EBF-A33A-6C6D99EDA8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED54B288-1CA2-4EBF-A33A-6C6D99EDA8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED54B288-1CA2-4EBF-A33A-6C6D99EDA8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED54B288-1CA2-4EBF-A33A-6C6D99EDA8EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

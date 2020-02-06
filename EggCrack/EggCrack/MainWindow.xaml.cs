@@ -50,8 +50,11 @@ namespace EggCrack
             stopgrid.Visibility = Visibility.Hidden;
             rollinggrid.Visibility = Visibility.Hidden;
             jujugrid.Visibility = Visibility.Hidden;
+            lemmego.Visibility = Visibility.Hidden;
             maingude.Visibility = Visibility.Hidden;
             maingudegrid.Visibility = Visibility.Hidden;
+
+            MainWindow mainWin = Window.GetWindow(this) as MainWindow;
 
             //Keyboard handler to close the window when Escape key is pressed.
             KeyUp += (s, e) =>
@@ -87,7 +90,6 @@ namespace EggCrack
                 maingude.Visibility = Visibility.Visible;
                 rottengrid.Visibility = Visibility.Hidden;
             };
-            ////////
             falling.Completed += (s, e) =>
             {
                 fallgrid.Visibility = Visibility.Hidden;
@@ -118,7 +120,7 @@ namespace EggCrack
             {
                 maingude.Visibility = Visibility.Visible;
                 maingudegrid.Visibility = Visibility.Visible;
-                pokinggrid.Visibility = Visibility.Hidden;
+                lemmego.Visibility = Visibility.Hidden;
             };
 
             ///////////////////////////////////////////////////////////
@@ -143,8 +145,8 @@ namespace EggCrack
                     canClick = false;
                     gude.Cursor = Cursors.Arrow;
                     maingude.Visibility = Visibility.Hidden;
-                    jujugrid.Visibility = Visibility.Visible;
                     maingudegrid.Visibility = Visibility.Hidden;
+                    jujugrid.Visibility = Visibility.Visible;
 
                     juju.Begin();
                 }
@@ -236,7 +238,15 @@ namespace EggCrack
                 canClick = true;
             };
 
-            
+            mainWin.MouseLeave += (s, e) =>
+            {
+                maingude.Visibility = Visibility.Hidden;
+                maingudegrid.Visibility = Visibility.Hidden;
+                chillgrid.Visibility = Visibility.Visible;
+
+                chill.Begin();
+            };
+
         }
     }
 }

@@ -152,5 +152,28 @@
   <ItemGroup>
     <Resource Include="handing-tright.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chopstick-t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="stoppp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lemmego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chop-drag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chilling-t.png" />
+    <Resource Include="chilling-white-t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gudetama-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="purple-transparent.png" />
+    <Resource Include="purple2-transparent.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
