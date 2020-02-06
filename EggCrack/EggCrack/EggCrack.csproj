@@ -175,5 +175,11 @@
     <Resource Include="purple-transparent.png" />
     <Resource Include="purple2-transparent.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="eggggg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="withoutmeh.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

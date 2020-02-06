@@ -25,6 +25,6 @@ C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\D
 C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.g.resources
 C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.Properties.Resources.resources
 C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.csproj.GenerateResource.cache
-C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.csproj.CoreCompileInputs.cache
 C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.exe
 C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.pdb
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.csproj.CoreCompileInputs.cache
