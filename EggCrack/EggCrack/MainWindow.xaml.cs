@@ -26,6 +26,7 @@ namespace EggCrack
         // cannot click until initial storyboard is completed
         private bool canClick = true;
         private bool chopstick = false;
+        private bool rottenflag = false;
 
         public MainWindow()
         {
@@ -75,9 +76,9 @@ namespace EggCrack
             };
             juju.Completed += (s, e) =>
             {
-                maingude.Visibility = Visibility.Visible;
                 jujugrid.Visibility = Visibility.Hidden;
-                maingude.Visibility = Visibility.Visible;
+                maingudegrid.Visibility = Visibility.Visible;
+                
             };
             poking.Completed += (s, e) =>
             {
@@ -134,17 +135,18 @@ namespace EggCrack
                     mainegg.Visibility = Visibility.Hidden;
                     maingude.Visibility = Visibility.Hidden;
                     rolling.Begin();
+                    rottenflag = true;
                 }
                 canClick = true;
             };
 
-            maingude.MouseLeftButtonDown += (s, e) =>
+            maingudegrid.MouseLeftButtonDown += (s, e) =>
             {
                 if (canClick && (chopstick == false))
                 {
                     canClick = false;
                     gude.Cursor = Cursors.Arrow;
-                    maingude.Visibility = Visibility.Hidden;
+                    //maingude.Visibility = Visibility.Hidden;
                     maingudegrid.Visibility = Visibility.Hidden;
                     jujugrid.Visibility = Visibility.Visible;
 
@@ -245,6 +247,21 @@ namespace EggCrack
                 chillgrid.Visibility = Visibility.Visible;
 
                 chill.Begin();
+            };
+
+            mainWin.MouseEnter += (s, e) =>
+            {
+                if(rottenflag == true)
+                {
+                    maingude.Visibility = Visibility.Visible;
+                    maingudegrid.Visibility = Visibility.Visible;
+                    chillgrid.Visibility = Visibility.Hidden;
+                    rottengrid.Visibility = Visibility.Hidden;
+
+                    rotten.Stop();
+                    chill.Stop();
+                }
+           
             };
 
         }
