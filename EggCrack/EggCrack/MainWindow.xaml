@@ -48,19 +48,22 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="egg_with_shel">
                 <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="311.688"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="326.355"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="egg_with_shel">
                 <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="-1.948"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-2.615"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="egg_with_shel">
-                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.7" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="gude">
-                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.7" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:7" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="poking">
@@ -300,10 +303,12 @@
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="chop">
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-31.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-28.033"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-15.5"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="chop">
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="24.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="24.733"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-12.5"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="chop">
@@ -319,16 +324,19 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="meh">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.99"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.9"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.3"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="letmego">
@@ -406,7 +414,7 @@
             <Image x:Name="middle_gudetama____" Margin="85.831,41.334,86.501,13" Source="middle-gudetama-transparent.png" Stretch="Fill" Opacity="0"/>
             <Image x:Name="backtonormal_tr____" Margin="85.831,107.834,76,40.5" Source="backtonormal-transparent.png" Stretch="Fill" Opacity="0"/>
         </Grid>
-        <Grid x:Name="rottengrid" Margin="196.334,26.666,201.166,84.667">
+        <Grid x:Name="rottengrid" Margin="196.334,26.666,201.166,84.667" d:IsHidden="True">
             <Image x:Name="gudetama" Source="gudetama-transparent.png" Stretch="Fill"/>
             <Image x:Name="purple1" Margin="80.999,74.667,234.5,79.001" Source="purple2-transparent.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
@@ -478,7 +486,7 @@
             </Image>
         </Grid>
         <Grid x:Name="chillgrid" Margin="224,89,236.502,69.667" d:IsHidden="True">
-            <Image x:Name="chillingwhite" Margin="12.67,23,12.495,0" Source="chilling-white-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image x:Name="chillingwhite" Margin="10,23,23.828,10" Source="chilling-white-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -488,7 +496,7 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="chillingegg1" Source="chilling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image x:Name="chillingegg1" Source="chilling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Margin="-19.996,-11.493,7.337,2.509">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -499,8 +507,8 @@
                 </Image.RenderTransform>
             </Image>
         </Grid>
-        <Grid x:Name="stopgrid" Margin="131.622,117,-836.212,-651.024" d:IsHidden="True">
-            <Image x:Name="meh" Margin="0,92.818,0,0" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Grid x:Name="stopgrid" Margin="131.622,117,-836.212,-651.024">
+            <Image x:Name="meh" Margin="8.349,92.818,4.349,0.001" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -510,7 +518,7 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="image" Margin="64.712,0,1072.714,735.691" Source="stoppp.png" Stretch="Fill" Opacity="0.5"/>
+            <Image x:Name="image" Margin="68.713,0,1076.046,741.025" Source="stoppp.png" Stretch="Fill" Opacity="0"/>
             <Image x:Name="chop" Margin="148.9,-138.176,923.159,712.182" Source="chopsticks.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
@@ -522,7 +530,7 @@
                 </Image.RenderTransform>
             </Image>
         </Grid>
-        <Grid x:Name="rollinggrid" Margin="-180.338,-282.195,216.581,110.001" d:IsHidden="True">
+        <Grid x:Name="rollinggrid" Margin="-180.338,-282.195,216.581,110.001">
             <Image x:Name="Egg" Margin="0,337.013,582.757,71.181" Source="egg.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
@@ -533,7 +541,7 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="gude" Margin="435.114,392.195,33.752,0" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0">
+            <Image x:Name="gude" Margin="399.115,426.195,45.751,-39.999" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.486,0.587" Opacity="0">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -543,7 +551,7 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="egg_with_shel" Margin="404.757,0,0,328.194" Source="crackedagain.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image x:Name="egg_with_shel" Margin="370.758,-24.001,28.664,302.198" Source="crackedagain.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -588,7 +596,7 @@
             </Image.RenderTransform>
         </Image>
         <Grid x:Name="maingudegrid" Margin="243.943,-237,-389,110.001" d:IsHidden="True">
-            <Image x:Name="maingude" Margin="0,347,650.166,0" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image x:Name="maingude" Margin="-27.334,379.666,650.832,-41.332" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -598,10 +606,10 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="maingudefall" Margin="49.831,446.499,771.893,0" Source="maingudefall.png" Stretch="Fill" Opacity="0.3"/>
-            <Image x:Name="maingudelet" Margin="160.331,411.499,650.166,0" Source="maingudelet.png" Stretch="Fill" Opacity="0.3"/>
-            <Image x:Name="maingudepok" Margin="-4.667,347,817.557,110.999" Source="maingudepok.png" Stretch="Fill" Opacity="0.3"/>
-            <Image x:Name="maingudestop" Margin="124.5,352,749.393,114.165" Source="maingudestop.png" Stretch="Fill" Opacity="0.3"/>
+            <Image x:Name="maingudefall" Margin="10,466.167,797.725,-18.777" Source="maingudefall.png" Stretch="Fill" Opacity="0" d:IsHidden="True"/>
+            <Image x:Name="maingudelet" Margin="145.665,471.167,665.499,-57.667" Source="maingudelet.png" Stretch="Fill" Opacity="0" d:IsHidden="True"/>
+            <Image x:Name="maingudepok" Margin="0,379.666,818.89,81.499" Source="maingudepok.png" Stretch="Fill" Opacity="0" d:IsHidden="True"/>
+            <Image x:Name="maingudestop" Margin="119.5,382.555,754.39,81.499" Source="maingudestop.png" Stretch="Fill" Opacity="0" d:IsHidden="True"/>
         </Grid>
     </Grid>
 </Window>

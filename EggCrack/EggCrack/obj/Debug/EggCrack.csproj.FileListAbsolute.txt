@@ -13,3 +13,18 @@ C:\Users\Panagiota\Desktop\CPSC581\EggCrack\EggCrack\obj\Debug\EggCrack.csproj.G
 C:\Users\Panagiota\Desktop\CPSC581\EggCrack\EggCrack\obj\Debug\EggCrack.csproj.CoreCompileInputs.cache
 C:\Users\Panagiota\Desktop\CPSC581\EggCrack\EggCrack\obj\Debug\EggCrack.exe
 C:\Users\Panagiota\Desktop\CPSC581\EggCrack\EggCrack\obj\Debug\EggCrack.pdb
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\bin\Debug\EggCrack.exe.config
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\bin\Debug\EggCrack.exe
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\bin\Debug\EggCrack.pdb
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.csprojAssemblyReference.cache
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\MainWindow.g.cs
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\App.g.cs
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack_MarkupCompile.cache
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack_MarkupCompile.lref
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\MainWindow.baml
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.g.resources
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.Properties.Resources.resources
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.csproj.GenerateResource.cache
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.csproj.CoreCompileInputs.cache
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.exe
+C:\Users\karen\Desktop\CPSC581-master (4)\CPSC581-master\EggCrack\EggCrack\obj\Debug\EggCrack.pdb
