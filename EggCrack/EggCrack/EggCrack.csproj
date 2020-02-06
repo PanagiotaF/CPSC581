@@ -122,5 +122,35 @@
   <ItemGroup>
     <Resource Include="chopsticks.cur" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="maingudefall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="maingudelet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="maingudepok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="maingudestop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="falling-t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="falling1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="falling2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="falling3-t %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="handing-tleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="handing-tright.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

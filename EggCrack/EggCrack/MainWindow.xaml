@@ -216,16 +216,13 @@
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="drop">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hanging1">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="almostfalling">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="chopsticks_big">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
@@ -260,6 +257,10 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hangingdrop">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="chilling">
@@ -429,8 +430,8 @@
             </Image>
         </Grid>
         <MediaElement x:Name="voice" Margin="-161.333,512.667,954.666,-92" Stretch="Fill" d:IsHidden="True"/>
-        <Grid x:Name="falling_hanging_grid" Margin="172.167,-183.332,-151.333,-21.667" d:IsHidden="True">
-            <Image x:Name="hanging2" Margin="149.337,183.651,140.315,77.132" Source="handing-tleft.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
+        <Grid x:Name="fallgrid" Margin="318.334,0.319,-11.018,55.465" d:IsHidden="True">
+            <Image x:Name="hanging2" Source="handing-tleft.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Margin="3.17,0,0,0" d:IsHidden="True">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -440,19 +441,22 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="hanging1" Margin="146.167,193.332,151.332,78.334" Source="falling1.png" Stretch="Fill"/>
-            <Image x:Name="chopsticks_big" Margin="146.167,193.332,151.332,78.334" Source="chopstick-t.png" Stretch="Fill"/>
-            <Image x:Name="almostfalling" Margin="257.57,216.376,272.763,126.301" Source="falling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image x:Name="hanging1" Source="falling1.png" Stretch="Fill" Margin="0,9.681,11.017,1.202" d:IsHidden="True"/>
+        </Grid>
+        <Grid x:Name="dropgrid" Margin="172.167,-183.332,-151.333,-21.667" d:IsHidden="True">
+            <Image x:Name="chopsticks_big" Source="chopstick-t.png" Stretch="Fill" Margin="146.167,193.332,151.332,78.334"/>
+            <Image x:Name="hangingdrop" Source="falling1.png" Stretch="Fill" Margin="146.166,193.332,151.333,78.334"/>
+            <Image x:Name="almostfalling" Source="falling-t.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Margin="257.57,216.376,272.763,126.301">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
                         <SkewTransform/>
-                        <RotateTransform Angle="-7.065"/>
+                        <RotateTransform Angle="-7.0649999999999995"/>
                         <TranslateTransform/>
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="abouttofall" Margin="0,209.998,0,0" Source="falling2.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image x:Name="abouttofall" Source="falling2.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Margin="0,209.998,0,0">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -462,7 +466,7 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="falling" Margin="24.167,0,15.83,197.668" Source="falling3-t (1).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image x:Name="falling" Source="falling3-t (1).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Margin="24.167,0,15.83,197.668">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -496,7 +500,7 @@
             </Image>
         </Grid>
         <Grid x:Name="stopgrid" Margin="131.622,117,-836.212,-651.024" d:IsHidden="True">
-            <Image x:Name="meh" Margin="0,92.818,0,0" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
+            <Image x:Name="meh" Margin="0,92.818,0,0" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -506,8 +510,8 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <Image x:Name="image" Margin="64.712,0,1072.714,735.691" Source="stoppp.png" Stretch="Fill" Opacity="0.5" d:IsHidden="True"/>
-            <Image x:Name="chop" Margin="148.9,-138.176,923.159,712.182" Source="chopsticks.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
+            <Image x:Name="image" Margin="64.712,0,1072.714,735.691" Source="stoppp.png" Stretch="Fill" Opacity="0.5"/>
+            <Image x:Name="chop" Margin="148.9,-138.176,923.159,712.182" Source="chopsticks.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -550,7 +554,7 @@
                 </Image.RenderTransform>
             </Image>
         </Grid>
-        <Grid x:Name="lemmego" Margin="329.215,111.591,123.333,-35.666" d:IsHidden="True">
+        <Grid x:Name="lemmego" Margin="329.215,111.591,123.333,-35.666">
             <Image x:Name="letmego" Margin="0,0,86.207,143.926" Source="lemmego.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
@@ -573,16 +577,6 @@
             </Image>
         </Grid>
         <Image x:Name="ClickChop" Margin="9,321.667,663.119,-21.667" Source="chopsticks.png" Stretch="Fill" d:IsHidden="True"/>
-        <Image x:Name="maingude" Margin="241.943,110,263.166,110.001" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
         <Image x:Name="mainegg" Margin="282,111.591,337,124.409" Source="egg.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
             <Image.RenderTransform>
                 <TransformGroup>
@@ -593,5 +587,21 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
+        <Grid x:Name="maingudegrid" Margin="243.943,-237,-389,110.001" d:IsHidden="True">
+            <Image x:Name="maingude" Margin="0,347,650.166,0" Source="meh.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="maingudefall" Margin="49.831,446.499,771.893,0" Source="maingudefall.png" Stretch="Fill" Opacity="0.3"/>
+            <Image x:Name="maingudelet" Margin="160.331,411.499,650.166,0" Source="maingudelet.png" Stretch="Fill" Opacity="0.3"/>
+            <Image x:Name="maingudepok" Margin="-4.667,347,817.557,110.999" Source="maingudepok.png" Stretch="Fill" Opacity="0.3"/>
+            <Image x:Name="maingudestop" Margin="124.5,352,749.393,114.165" Source="maingudestop.png" Stretch="Fill" Opacity="0.3"/>
+        </Grid>
     </Grid>
 </Window>
