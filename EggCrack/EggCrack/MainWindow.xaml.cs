@@ -56,6 +56,7 @@ namespace EggCrack
             maingudegrid.Visibility = Visibility.Hidden;
 
             MainWindow mainWin = Window.GetWindow(this) as MainWindow;
+            rottenflag = false;
 
             //Keyboard handler to close the window when Escape key is pressed.
             KeyUp += (s, e) =>
@@ -130,12 +131,13 @@ namespace EggCrack
                 if (canClick && (chopstick == false))
                 {
                     canClick = false;
+                    rottenflag = true;
                     gude.Cursor = Cursors.Arrow;
                     rollinggrid.Visibility = Visibility.Visible;
                     mainegg.Visibility = Visibility.Hidden;
                     maingude.Visibility = Visibility.Hidden;
                     rolling.Begin();
-                    rottenflag = true;
+                    //rottenflag = true;
                 }
                 canClick = true;
             };
@@ -242,11 +244,14 @@ namespace EggCrack
 
             mainWin.MouseLeave += (s, e) =>
             {
-                maingude.Visibility = Visibility.Hidden;
-                maingudegrid.Visibility = Visibility.Hidden;
-                chillgrid.Visibility = Visibility.Visible;
+                if (rottenflag == true)
+                {
+                    maingude.Visibility = Visibility.Hidden;
+                    maingudegrid.Visibility = Visibility.Hidden;
+                    chillgrid.Visibility = Visibility.Visible;
 
-                chill.Begin();
+                    chill.Begin();
+                }
             };
 
             mainWin.MouseEnter += (s, e) =>
