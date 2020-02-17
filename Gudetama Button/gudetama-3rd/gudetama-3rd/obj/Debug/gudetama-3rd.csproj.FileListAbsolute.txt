@@ -1,0 +1,16 @@
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\bin\Debug\gudetama-3rd.exe.config
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\bin\Debug\gudetama-3rd.exe
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\bin\Debug\gudetama-3rd.pdb
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama-3rd.csprojAssemblyReference.cache
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\MainWindow.g.cs
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\App.g.cs
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama-3rd_MarkupCompile.cache
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama-3rd_MarkupCompile.lref
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\MainWindow.baml
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama-3rd.g.resources
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama_3rd.Properties.Resources.resources
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama-3rd.csproj.GenerateResource.cache
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama-3rd.csproj.CoreCompileInputs.cache
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama-3rd.exe
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama-3rd.pdb
+C:\Users\karen\OneDrive\Desktop\gudetama-3rd\gudetama-3rd\obj\Debug\gudetama-3rd_Content.g.cs
