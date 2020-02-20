@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CPSC581Gesture</string>
+    <string name="Time">12:00</string>
+    <string name="lockimg">lockimg</string>
+    <string name="shovelimg">shovelimg</string>
+    <string name="date">FRI, JANUARY 1</string>
+    <string name="waterimg">waterimg</string>
+    <string name="threeimg">threeimg</string>
+    <string name="siximg">siximg</string>
+    <string name="oneimg">oneimg</string>
+    <string name="twoimg">twoimg</string>
+    <string name="fourimg">fourimg</string>
+    <string name="fiveimg">fiveimg</string>
+    <string name="cutenote">cutenote</string>
+    <string name="remember_to_drink_water_yourself">Remember to drink water yourself!</string>
+    <string name="cup_of_water_cute">cup of water cute</string>
+    <string name="cup_of_water">cup of water</string>
+    <string name="remember_to_drink_water_too">Remember to drink water too!</string>
+    <string name="reminder_cute">reminder cute</string>
+    <string name="bubble_of_words">bubble of words</string>
+</resources>
