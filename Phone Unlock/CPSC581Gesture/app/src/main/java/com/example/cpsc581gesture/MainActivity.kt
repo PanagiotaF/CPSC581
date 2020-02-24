@@ -18,8 +18,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        checkPassword()
+    }
 
-        // successful password input as follows
+    fun checkPassword(){
         watercan.setOnClickListener(){
             clickCount++;
             checkCount()
@@ -75,7 +77,8 @@ class MainActivity : AppCompatActivity() {
             cuteSun.setOnClickListener(){
                 clickCount=0
                 rainfall.visibility= View.INVISIBLE
-                setContentView(R.layout.activity_main)
+                //setContentView(R.layout.activity_main)
+                checkPassword()
             }
         }
     }
