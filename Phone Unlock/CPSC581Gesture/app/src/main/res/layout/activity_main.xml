@@ -77,6 +77,30 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
+        android:id="@+id/tap"
+        android:layout_width="148dp"
+        android:layout_height="117dp"
+        android:alpha="0.4"
+        android:contentDescription="success tap"
+        app:layout_constraintBottom_toBottomOf="@+id/watercan"
+        app:layout_constraintEnd_toEndOf="@+id/watercan"
+        app:layout_constraintStart_toStartOf="@+id/watercan"
+        app:layout_constraintTop_toTopOf="@+id/watercan"
+        app:srcCompat="@drawable/tapcircle" />
+
+    <ImageView
+        android:id="@+id/tap2"
+        android:layout_width="152dp"
+        android:layout_height="106dp"
+        android:alpha="0.4"
+        android:contentDescription="successtap2"
+        app:layout_constraintBottom_toBottomOf="@+id/shovel"
+        app:layout_constraintEnd_toEndOf="@+id/shovel"
+        app:layout_constraintStart_toStartOf="@+id/shovel"
+        app:layout_constraintTop_toTopOf="@+id/shovel"
+        app:srcCompat="@drawable/tapcircle" />
+
+    <ImageView
         android:id="@+id/shovel"
         android:layout_width="115dp"
         android:layout_height="95dp"
