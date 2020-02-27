@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/drpepperfailcan"
+            android:layout_width="491dp"
+            android:layout_height="631dp"
+            android:layout_marginTop="156dp"
+            android:contentDescription="@string/pepperfailcan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/drpepper" />
+
+
+        <ImageView
+            android:id="@+id/locknop"
+            android:layout_width="67dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="162dp"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="163dp"
+            android:layout_marginRight="163dp"
+            android:contentDescription="@string/locknope"
+            app:layout_constraintBottom_toTopOf="@+id/timedate4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
+
+        <TextView
+            android:id="@+id/timedate4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginEnd="169dp"
+            android:layout_marginRight="169dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="1"
+            android:text="@string/_12_00"
+            android:textSize="24sp"
+            app:fontFamily="monospace"
+            app:layout_constraintBottom_toTopOf="@+id/drpepperfailcan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/locknop" />
+
+        <ImageView
+            android:id="@+id/faildrpepper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="39dp"
+            android:contentDescription="@string/failsign"
+            app:layout_constraintBottom_toTopOf="@+id/drpepperfailcan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/fail" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

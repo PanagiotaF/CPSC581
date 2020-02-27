@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CPSC581Sensor</string>
+    <string name="cokecan">CokeCan</string>
+    <string name="lock">lock</string>
+    <string name="peppercan">pepperCan</string>
+    <string name="spritecan">spriteCan</string>
+    <string name="_12_00">12:00</string>
+    <string name="overlayfortest">overlayfortest</string>
+    <string name="coke">TODO</string>
+    <string name="home">TODO</string>
+    <string name="cokecanagain">cokecanagain</string>
+    <string name="lockagain">lockagain</string>
+    <string name="tabsomething">tabsomething</string>
+    <string name="mentoscandy">mentoscandy</string>
+    <string name="cocacan">cocacan</string>
+    <string name="textclock">textclock</string>
+    <string name="cokenotopens">cokenotopens</string>
+    <string name="locknotopen">locknotopen</string>
+    <string name="buttonfake">buttonfake</string>
+    <string name="fakebuttonimage">fakebuttonimage</string>
+    <string name="pepperfailcan">pepperfailcan</string>
+    <string name="failsign">failsign</string>
+    <string name="locknope">locknope</string>
+    <string name="button">button</string>
+</resources>

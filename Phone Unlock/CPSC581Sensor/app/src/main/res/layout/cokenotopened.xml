@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cokenop"
+        android:layout_width="324dp"
+        android:layout_height="630dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:contentDescription="@string/cokenotopens"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timedate3"
+        app:srcCompat="@drawable/cokecan2" />
+
+    <ImageView
+        android:id="@+id/locknop"
+        android:layout_width="67dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:contentDescription="@string/locknotopen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
+
+    <TextView
+        android:id="@+id/timedate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginRight="169dp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/_12_00"
+        android:textSize="24sp"
+        app:fontFamily="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/cokenop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locknop" />
+
+    <ImageView
+        android:id="@+id/fakebutton"
+        android:layout_width="358dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="9dp"
+        android:clickable="true"
+        android:contentDescription="@string/fakebuttonimage"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/cokenop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timedate3"
+        app:layout_constraintVertical_bias="0.313"
+        app:srcCompat="@color/overlay" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="426dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="@string/button"
+        app:layout_constraintBottom_toTopOf="@+id/cokenop"
+        app:layout_constraintEnd_toStartOf="@+id/cokenop"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fakebutton"
+        app:layout_constraintVertical_bias="0.543" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
