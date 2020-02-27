@@ -199,7 +199,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         ObjectAnimator.ofFloat(drink, "translationY", 4000f).apply {
             duration = 4000
             start()
-
         }
     }
 
@@ -219,7 +218,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     }
 
 
-    // dropping mentos
+    // dropping mentos by volume down key
     fun startMentos(){
         setContentView(R.layout.mentos)
         val drink = findViewById(R.id.mentoscandy) as ImageView
