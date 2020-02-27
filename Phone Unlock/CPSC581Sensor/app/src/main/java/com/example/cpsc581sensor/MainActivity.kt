@@ -113,8 +113,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             startPop()
         }
 
-
-
     }
     fun startPop(){
         setContentView(R.layout.pop1)
@@ -123,23 +121,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             duration = 4000
             start()
         }
-
-
-        // val animation = AnimationUtils.loadAnimation(this, R.anim.animation_list)
-       // val translateAnimation = TranslateAnimation( 0.0f, 0.0f,0.0f, 735.0f)
-        //translateAnimation.duration = 2000
-        //translateAnimation.fillAfter = true
-
-       // mentoscandy.startAnimation(animation)
-        /*private void startPop(){
-            translateAnimation = new TranslateAnimation(Animation.ABSOLUTE,0.0f,Animation.ABSOLUTE, 0.0f,
-            Animation.ABSOLUTE, 0.0f,
-            Animation.ABSOLUTE, 735.0f );
-            translateAnimation.setDuration(2000);
-            translateAnimation.setFillAfter(true);
-            imageView.startAnimation(translateAnimation);
-        }*/
-
     }
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
 
@@ -156,22 +137,5 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             SensorManager.SENSOR_DELAY_NORMAL
         )
     }
-
-    /*override fun onTouchEvent(event: MotionEvent?): Boolean {
-        if(cocacola.visibility == View.VISIBLE){
-            if(event!!.action == MotionEvent.ACTION_MOVE){
-
-            }
-        }else if(sprite.visibility == View.VISIBLE){
-            if(event!!.action == MotionEvent.ACTION_MOVE){
-
-            }
-        }else if(drpepper.visibility == View.VISIBLE){
-            if(event!!.action == MotionEvent.ACTION_MOVE){
-
-            }
-        }
-        return super.onTouchEvent(event)
-    }*/
 }
 
