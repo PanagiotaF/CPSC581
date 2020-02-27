@@ -1,0 +1,4 @@
+#Thu Feb 27 12:56:16 MST 2020
+base.0=C\:\\Users\\karen\\OneDrive\\Documents\\GitHub\\CPSC581\\Phone Unlock\\CPSC581Sensor\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
