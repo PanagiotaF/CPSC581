@@ -114,6 +114,8 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             //startPop()
         }
     }
+    // pop is the mentos and explosion
+    // animated list not working yet
     fun startPop(){
         setContentView(R.layout.mentos)
         val animation = AnimationUtils.loadAnimation(this, R.anim.slide_down)
