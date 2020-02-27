@@ -119,40 +119,16 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         }
     }
 
-    // NOT WORKING
-    // to go back to the selection after fails
-    fun first(){
-        sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
-        lastUpdate = System.currentTimeMillis()
-        setContentView(R.layout.activity_main)
-        sprite.visibility = View.INVISIBLE
-        cocacola.visibility = View.INVISIBLE
-        drpepper.visibility = View.VISIBLE
-        dr = true
-        sp = false
-        acc = false
-        passwordFlag = true
-        checkPassword()
-    }
-
 
     // error handling for sprite
     fun spriteFail(){
         setContentView(R.layout.spritefail)
-        val fail = findViewById(R.id.fail) as ImageView
-        fail.setOnClickListener() {
-            first()
-        }
     }
 
 
     // error handling for dr.pepper
     fun drpepperFail(){
         setContentView(R.layout.drpepperfail)
-        val faildrpepper = findViewById(R.id.faildrpepper) as ImageView
-        faildrpepper.setOnClickListener() {
-           first()
-        }
     }
 
 
