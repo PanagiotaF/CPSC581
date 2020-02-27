@@ -11,25 +11,27 @@
 
         <ImageView
             android:id="@+id/homescreen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="462dp"
+            android:layout_height="765dp"
+            android:contentDescription="@string/home"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/home"
-            android:contentDescription="@string/home" />
+            app:layout_constraintVertical_bias="0.466"
+            app:srcCompat="@drawable/home" />
 
         <ImageView
             android:id="@+id/cokedrink"
             android:layout_width="675dp"
             android:layout_height="1050dp"
+            android:contentDescription="@string/coke"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/cokedrink"
-            android:contentDescription="@string/coke" />
+            app:srcCompat="@drawable/cokedrink" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

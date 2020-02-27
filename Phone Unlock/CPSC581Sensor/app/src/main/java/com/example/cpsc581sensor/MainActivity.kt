@@ -1,5 +1,6 @@
 package com.example.cpsc581sensor
 
+import android.animation.ObjectAnimator
 import android.content.Context
 import android.hardware.Sensor
 import android.hardware.SensorEvent
@@ -117,9 +118,14 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     }
     fun startPop(){
         setContentView(R.layout.pop1)
-        //val drink = findViewById(R.id.cokedrink) as ImageView
+        val drink = findViewById(R.id.cokedrink) as ImageView
+        ObjectAnimator.ofFloat(drink, "translationY", 4000f).apply {
+            duration = 4000
+            start()
+        }
 
-       // val animation = AnimationUtils.loadAnimation(this, R.anim.animation_list)
+
+        // val animation = AnimationUtils.loadAnimation(this, R.anim.animation_list)
        // val translateAnimation = TranslateAnimation( 0.0f, 0.0f,0.0f, 735.0f)
         //translateAnimation.duration = 2000
         //translateAnimation.fillAfter = true
