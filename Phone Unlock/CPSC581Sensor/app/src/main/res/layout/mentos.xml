@@ -13,15 +13,14 @@
         <ImageView
             android:id="@+id/mentoscandy"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="46dp"
+            android:layout_height="540dp"
+            android:layout_marginBottom="43dp"
             android:contentDescription="@string/mentoscandy"
             app:layout_constraintBottom_toTopOf="@+id/cocacola"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.576"
             app:srcCompat="@drawable/onementos" />
 
         <ImageView
@@ -41,6 +40,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.615"
             app:srcCompat="@drawable/cokecan2" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

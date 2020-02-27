@@ -15,30 +15,27 @@
             android:id="@+id/tab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="482dp"
+            android:layout_marginBottom="32dp"
             android:contentDescription="@string/tabsomething"
-            app:layout_constraintBottom_toBottomOf="@+id/cokenop"
+            app:layout_constraintBottom_toTopOf="@+id/cokecan2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.574"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/tab" />
 
         <ImageView
-            android:id="@+id/cokenop"
-            android:layout_width="324dp"
-            android:layout_height="630dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="140dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:contentDescription="@string/todo"
+            android:id="@+id/cokecan2"
+            android:layout_width="342dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/cokecanagain"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.615"
+            app:layout_constraintTop_toBottomOf="@+id/lock2"
+            app:layout_constraintVertical_bias="0.906"
             app:srcCompat="@drawable/cokecan2" />
 
 
@@ -49,7 +46,7 @@
             android:layout_marginTop="34dp"
             android:layout_marginBottom="76dp"
             android:contentDescription="@string/lockagain"
-            app:layout_constraintBottom_toTopOf="@id/cokenop"
+            app:layout_constraintBottom_toTopOf="@+id/cokecan2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -57,17 +54,16 @@
 
         <TextView
             android:id="@+id/timedate2"
-            android:layout_width="82dp"
-            android:layout_height="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="71dp"
             android:layout_marginBottom="35dp"
             android:text="@string/_12_00"
             android:textSize="24sp"
             app:fontFamily="monospace"
-            app:layout_constraintBottom_toTopOf="@id/cokenop"
+            app:layout_constraintBottom_toTopOf="@+id/cokecan2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

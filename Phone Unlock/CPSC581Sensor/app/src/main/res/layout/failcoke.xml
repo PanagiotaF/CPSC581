@@ -21,8 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.615"
-        app:srcCompat="@drawable/cokecan2"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/cokecan2" />
 
     <ImageView
         android:id="@+id/locknop"
@@ -40,8 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@android:drawable/ic_lock_idle_lock"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
 
 
     <TextClock
@@ -72,7 +70,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/fail"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/fail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
