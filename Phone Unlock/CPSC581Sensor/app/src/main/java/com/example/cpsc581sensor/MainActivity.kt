@@ -15,6 +15,7 @@ import kotlinx.android.synthetic.main.cokenotopened.*
 import android.view.animation.AnimationUtils
 import android.view.animation.TranslateAnimation
 import android.widget.Button
+import android.widget.ImageView
 import kotlinx.android.synthetic.main.activity_main.cocacola
 import kotlinx.android.synthetic.main.mentos.*
 
@@ -102,7 +103,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
 
     private fun afterShake(){
         setContentView(R.layout.cokenotopened)
-        val cokebutton = findViewById<Button>(R.id.button)
+        val cokebutton = findViewById(R.id.coke_button) as ImageView
         cokebutton.setOnClickListener(){
             Toast.makeText(applicationContext,"this is toast message",Toast.LENGTH_SHORT).show()
             val toast = Toast.makeText(applicationContext, "Hello Javatpoint", Toast.LENGTH_LONG)

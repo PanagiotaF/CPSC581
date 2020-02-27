@@ -7,20 +7,23 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/cokenop"
+        android:id="@+id/cocacola"
         android:layout_width="324dp"
         android:layout_height="630dp"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:contentDescription="@string/cokenotopens"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/cokecan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timedate3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615"
         app:srcCompat="@drawable/cokecan2" />
+
 
     <ImageView
         android:id="@+id/locknop"
@@ -28,15 +31,15 @@
         android:layout_height="0dp"
         android:layout_marginStart="172dp"
         android:layout_marginLeft="172dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="172dp"
         android:layout_marginRight="172dp"
         android:contentDescription="@string/locknotopen"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_lock_idle_lock" />
-
 
     <TextView
         android:id="@+id/timedate3"
@@ -44,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
         android:layout_marginLeft="170dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="169dp"
         android:layout_marginRight="169dp"
         android:layout_marginBottom="6dp"
@@ -52,41 +56,28 @@
         app:fontFamily="monospace"
         app:layout_constraintBottom_toTopOf="@+id/cokenop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/locknop" />
 
     <ImageView
-        android:id="@+id/fakebutton"
-        android:layout_width="358dp"
-        android:layout_height="192dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginLeft="26dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginRight="27dp"
-        android:layout_marginBottom="9dp"
+        android:id="@+id/coke_button"
+        android:layout_width="364dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
         android:clickable="true"
-        android:contentDescription="@string/fakebuttonimage"
+        android:contentDescription="@string/todo"
         android:focusable="true"
-        app:layout_constraintBottom_toTopOf="@+id/cokenop"
+        app:layout_constraintBottom_toTopOf="@+id/cocacola"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timedate3"
-        app:layout_constraintVertical_bias="0.313"
-        app:srcCompat="@color/overlay" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="426dp"
-        android:layout_height="98dp"
-        android:layout_marginTop="17dp"
-        android:contentDescription="@string/button"
-        app:layout_constraintBottom_toTopOf="@+id/cokenop"
-        app:layout_constraintEnd_toStartOf="@+id/cokenop"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fakebutton"
-        app:layout_constraintVertical_bias="0.543" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cokecan_tab" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

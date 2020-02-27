@@ -8,21 +8,19 @@
 
     <ImageView
         android:id="@+id/sprite"
-        android:layout_width="308dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_width="306dp"
+        android:layout_height="667dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="12dp"
         android:layout_weight="1"
         android:clickable="true"
         android:contentDescription="@string/spritecan"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timedate"
+        app:layout_constraintVertical_bias="0.352"
         app:srcCompat="@drawable/spritecan1" />
 
     <ImageView
@@ -82,15 +80,17 @@
         android:id="@+id/timedate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="71dp"
+        android:layout_marginTop="150dp"
         android:layout_marginBottom="35dp"
         android:text="@string/_12_00"
         android:textSize="24sp"
         app:fontFamily="monospace"
-        app:layout_constraintBottom_toTopOf="@+id/sprite"
+        app:layout_constraintBottom_toTopOf="@+id/lock"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
 
     <ImageView
         android:id="@+id/overlay"
@@ -100,8 +100,10 @@
         android:contentDescription="@string/overlayfortest"
         app:layout_constraintBottom_toBottomOf="@+id/drpepper"
         app:layout_constraintEnd_toEndOf="@+id/drpepper"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@color/overlay" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
