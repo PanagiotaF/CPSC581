@@ -109,21 +109,22 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             val toast = Toast.makeText(applicationContext, "Hello Javatpoint", Toast.LENGTH_LONG)
             toast.show()
             setContentView(R.layout.cokeopened)
-            //startPop()
+            startPop()
         }
 
 
 
     }
     fun startPop(){
-        setContentView(R.layout.mentos)
+        setContentView(R.layout.pop1)
+        //val drink = findViewById(R.id.cokedrink) as ImageView
 
-        val animation = AnimationUtils.loadAnimation(this, R.anim.animation_list)
-        val translateAnimation = TranslateAnimation( 0.0f, 0.0f,0.0f, 735.0f)
-        translateAnimation.duration = 2000
-        translateAnimation.fillAfter = true
+       // val animation = AnimationUtils.loadAnimation(this, R.anim.animation_list)
+       // val translateAnimation = TranslateAnimation( 0.0f, 0.0f,0.0f, 735.0f)
+        //translateAnimation.duration = 2000
+        //translateAnimation.fillAfter = true
 
-        mentoscandy.startAnimation(animation)
+       // mentoscandy.startAnimation(animation)
         /*private void startPop(){
             translateAnimation = new TranslateAnimation(Animation.ABSOLUTE,0.0f,Animation.ABSOLUTE, 0.0f,
             Animation.ABSOLUTE, 0.0f,
