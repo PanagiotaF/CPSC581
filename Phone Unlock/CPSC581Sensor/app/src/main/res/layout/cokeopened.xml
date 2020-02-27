@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toStartOf="@+id/textClock"
+        app:layout_constraintStart_toStartOf="@+id/textClock">
+
+        <ImageView
+            android:id="@+id/tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="@string/tabsomething"
+            app:layout_constraintBottom_toTopOf="@+id/cokecan2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/tab" />
+
+        <ImageView
+            android:id="@+id/cokecan2"
+            android:layout_width="342dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/cokecanagain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lock2"
+            app:layout_constraintVertical_bias="0.906"
+            app:srcCompat="@drawable/cokecan2" />
+
+
+        <ImageView
+            android:id="@+id/lock2"
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="76dp"
+            android:contentDescription="@string/lockagain"
+            app:layout_constraintBottom_toTopOf="@+id/cokecan2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
+        <TextView
+            android:id="@+id/timedate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="71dp"
+            android:layout_marginBottom="35dp"
+            android:text="@string/_12_00"
+            android:textSize="24sp"
+            app:fontFamily="monospace"
+            app:layout_constraintBottom_toTopOf="@+id/cokecan2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

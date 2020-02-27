@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- oneshot="true":描画１回のみ、oneshot="false"：繰り返し -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <!-- duration：表示間隔[msec]-->
+    <item android:drawable="@drawable/coke_m1" android:duration="200" />
+    <item android:drawable="@drawable/dr_m2" android:duration="200" />
+    <item android:drawable="@drawable/dr_m3" android:duration="200" />
+    <item android:drawable="@drawable/dr_m4" android:duration="200" />
+    <item android:drawable="@drawable/dr_m5" android:duration="200" />
+    <item android:drawable="@drawable/dr_m6" android:duration="200" />
+    <item android:drawable="@drawable/coke_m7" android:duration="200" />
+    <item android:drawable="@drawable/coke_m8" android:duration="200" />
+    <item android:drawable="@drawable/dr_m8" android:duration="200" />
+    <item android:drawable="@drawable/camera"/>
+</animation-list>
