@@ -6,19 +6,17 @@ import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
+import android.net.Uri
 import android.os.Bundle
-import android.view.Gravity
+import android.view.KeyEvent
 import android.view.View
-import android.widget.Toast
+import android.view.animation.AccelerateDecelerateInterpolator
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.cokenotopened.*
-import android.view.animation.AnimationUtils
-import android.view.animation.TranslateAnimation
-import android.widget.Button
 import android.widget.ImageView
+import android.widget.VideoView
+import androidx.core.animation.addListener
 import kotlinx.android.synthetic.main.activity_main.cocacola
-import kotlinx.android.synthetic.main.mentos.*
 
 class MainActivity : AppCompatActivity(), SensorEventListener {
     private lateinit var sensorManager: SensorManager
@@ -33,41 +31,67 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     private var lastUpdate = 200000000000000000
     private var passwordFlag = true
     private var acc = false
+    private var sp = false
+    private var dr = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
 
         lastUpdate = System.currentTimeMillis()
-        // set up window and start
         setContentView(R.layout.activity_main)
         sprite.visibility = View.INVISIBLE
         cocacola.visibility = View.INVISIBLE
         drpepper.visibility = View.VISIBLE
-
+        dr = true
+        sp = false
         checkPassword()
     }
+
 
     fun checkPassword(){
         if (passwordFlag == true) {
             drpepper.setOnClickListener(){
                 sprite.visibility = View.INVISIBLE
+                sprite_tab.visibility = View.INVISIBLE
                 cocacola.visibility = View.VISIBLE
                 drpepper.visibility = View.INVISIBLE
+                drpepper_tab.visibility = View.INVISIBLE
+                dr = false
+                sp = false
                 acc = true
             }
             cocacola.setOnClickListener(){
                 sprite.visibility = View.VISIBLE
+                sprite_tab.visibility = View.VISIBLE
                 cocacola.visibility = View.INVISIBLE
                 drpepper.visibility = View.INVISIBLE
+                drpepper_tab.visibility = View.INVISIBLE
+                dr = false
+                sp = true
                 acc = false
             }
             sprite.setOnClickListener(){
                 sprite.visibility = View.INVISIBLE
+                sprite_tab.visibility = View.INVISIBLE
                 cocacola.visibility = View.INVISIBLE
                 drpepper.visibility = View.VISIBLE
+                drpepper_tab.visibility = View.VISIBLE
                 acc = false
+                dr = true
+                sp = false
             }
+        }
+    }
+
+    // click the volume down key
+    override fun onKeyDown(keycode: Int, event: KeyEvent): Boolean {
+        return when (keycode){
+            KeyEvent.KEYCODE_VOLUME_DOWN ->{
+                startMentos()
+                true
+            }
+            else -> super.onKeyUp(keycode, event)
         }
     }
 
@@ -89,43 +113,129 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             if(actualTime-lastUpdate <200){
                 return
             }
-            // success
-            /*Toast.makeText(applicationContext,"this is toast message",Toast.LENGTH_SHORT).show()
-            val toast = Toast.makeText(applicationContext, "Hello Javatpoint", Toast.LENGTH_LONG)
-            toast.show()
-            val myToast = Toast.makeText(applicationContext,"toast message with gravity",Toast.LENGTH_SHORT)
-            myToast.setGravity(Gravity.LEFT,200,200)
-            myToast.show()*/
             passwordFlag = false
             lastUpdate=actualTime
             afterShake()
         }
     }
 
+    // NOT WORKING
+    // to go back to the selection after fails
+    fun first(){
+        sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+        lastUpdate = System.currentTimeMillis()
+        setContentView(R.layout.activity_main)
+        sprite.visibility = View.INVISIBLE
+        cocacola.visibility = View.INVISIBLE
+        drpepper.visibility = View.VISIBLE
+        dr = true
+        sp = false
+        acc = false
+        passwordFlag = true
+        checkPassword()
+    }
+
+
+    // error handling for sprite
+    fun spriteFail(){
+        setContentView(R.layout.spritefail)
+        val fail = findViewById(R.id.fail) as ImageView
+        fail.setOnClickListener() {
+            first()
+        }
+    }
+
+
+    // error handling for dr.pepper
+    fun drpepperFail(){
+        setContentView(R.layout.drpepperfail)
+        val faildrpepper = findViewById(R.id.faildrpepper) as ImageView
+        faildrpepper.setOnClickListener() {
+           first()
+        }
+    }
+
+
+    // tab opened
+    fun opening(){
+        setContentView(R.layout.cokeopened)
+        val drink = findViewById(R.id.tab) as ImageView
+        ObjectAnimator.ofFloat(drink, "translationY", 0f).apply {
+            duration = 2000
+            start()
+            opened = true
+        }
+    }
+
+
+    // coke can after shaking
+    private var opened = false
     private fun afterShake(){
-        setContentView(R.layout.cokenotopened)
-        val cokebutton = findViewById(R.id.coke_button) as ImageView
-        cokebutton.setOnClickListener(){
-            Toast.makeText(applicationContext,"this is toast message",Toast.LENGTH_SHORT).show()
-            val toast = Toast.makeText(applicationContext, "Hello Javatpoint", Toast.LENGTH_LONG)
-            toast.show()
-            setContentView(R.layout.cokeopened)
-            startPop()
+        if (dr == true){
+            drpepperFail()
+        }
+        else if (sp == true){
+            spriteFail()
+        }
+        else {
+            setContentView(R.layout.cokenotopened)
+            val cokebutton = findViewById(R.id.coke_button) as ImageView
+            cokebutton.setOnClickListener() {
+                val opening = setContentView(R.layout.cokeopened)
+                opening()
+                if (opened == true) {
+                    startPop()
+                }
+            }
         }
 
     }
-    // pop is the mentos and explosion
-    // animated list not working yet
+
+
+    // drink moving down
     fun startPop(){
         setContentView(R.layout.pop1)
         val drink = findViewById(R.id.cokedrink) as ImageView
         ObjectAnimator.ofFloat(drink, "translationY", 4000f).apply {
             duration = 4000
             start()
+
         }
     }
-    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
 
+
+    // video of explosion
+    fun startVideo(){
+        setContentView(R.layout.video)
+        val vv = findViewById(R.id.videoView) as VideoView
+        val path = Uri.parse("android.resource://" + packageName +"/" +R.raw.video)
+        vv.setVideoURI(path)
+        vv.setOnPreparedListener{
+            vv.start()
+        }
+        vv.setOnCompletionListener{
+            setContentView(R.layout.camera)
+        }
+    }
+
+
+    // dropping mentos
+    fun startMentos(){
+        setContentView(R.layout.mentos)
+        val drink = findViewById(R.id.mentoscandy) as ImageView
+        val men = ObjectAnimator.ofFloat(drink, "translationY", 300f)
+        men.apply {
+            duration = 2000
+            men.addListener(onStart = {
+                drink.visibility = View.VISIBLE
+            })
+            AccelerateDecelerateInterpolator()
+            start()
+        }
+        startVideo()
+    }
+
+    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
     }
     override fun onPause() {
         super.onPause()
@@ -140,4 +250,5 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         )
     }
 }
+
 

@@ -10,26 +10,13 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/homescreen"
-            android:layout_width="423dp"
-            android:layout_height="738dp"
-            android:contentDescription="@string/home"
+            android:id="@+id/imageView"
+            android:layout_width="462dp"
+            android:layout_height="784dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/home" />
-
-        <ImageView
-            android:id="@+id/cokedrink"
-            android:layout_width="675dp"
-            android:layout_height="1050dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/cokedrink"
-            android:contentDescription="@string/coke" />
-
+            app:srcCompat="@drawable/camera" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
