@@ -1,6 +1,5 @@
 package com.example.cpsc581sensor
 
-import android.animation.Animator
 import android.animation.ObjectAnimator
 import android.content.Context
 import android.hardware.Sensor
@@ -12,14 +11,11 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.KeyEvent
 import android.view.View
-import android.view.animation.AccelerateDecelerateInterpolator
-import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.ImageView
 import android.widget.VideoView
-import androidx.core.animation.addListener
 import kotlinx.android.synthetic.main.activity_main.cocacola
 import kotlinx.android.synthetic.main.mentos.*
 
@@ -34,6 +30,8 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     private var sp = false
     private var dr = false
     private var mentosdone = false
+    // coke can after shaking
+    private var opened = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,8 +46,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         sp = false
         checkPassword()
     }
-
-
     fun checkPassword(){
         if (passwordFlag == true) {
             drpepper.setOnClickListener(){
@@ -83,9 +79,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
                 sp = false
             }
         }
-    }
-
-    // click the volume down key
+    }    // click the volume down key
     override fun onKeyDown(keycode: Int, event: KeyEvent): Boolean {
         return when (keycode){
             KeyEvent.KEYCODE_VOLUME_DOWN ->{
@@ -97,7 +91,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
                     mentosdone = true
                     startVideo()
                 }, 4000)
-
                 true
             }
             else -> super.onKeyUp(keycode, event)
@@ -150,8 +143,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             opened = true
         }
     }
-    // coke can after shaking
-    private var opened = false
     private fun afterShake(){
         setContentView(R.layout.cokenotopened)
         val cokebutton = findViewById(R.id.coke_button) as ImageView
@@ -162,7 +153,6 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
                 startPop()
             }
         }
-
     }
     // drink moving down
     fun startPop(){
@@ -187,27 +177,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
                 setContentView(R.layout.camera)
             }
         }
-
     }
-
-
-    // dropping mentos by volume down key
-    fun startMentos(){
-        setContentView(R.layout.mentos)
-
-        val drink = findViewById(R.id.mentoscandy) as ImageView
-        val men = ObjectAnimator.ofFloat(drink, "translationY", 300f)
-        men.apply {
-            duration = 2000
-            men.addListener(onStart = {
-                drink.visibility = View.VISIBLE
-            })
-            AccelerateDecelerateInterpolator()
-            start()
-        }
-        startVideo()
-    }
-
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
     }
     override fun onPause() {
