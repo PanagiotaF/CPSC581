@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottleMessage</string>
+    <string name="time_screen">time-screen</string>
+    <string name="_12_00">12:00</string>
+    <string name="april_10_2020">April 10, 2020</string>
+    <string name="locksymbol">TODO</string>
+</resources>
