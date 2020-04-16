@@ -6,6 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <VideoView
+        android:id="@+id/message_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/beach_img"
+        android:layout_width="459dp"
+        android:layout_height="865dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/no_bottle_anim"
+        android:contentDescription="@string/anim_try"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <ImageView
+        android:id="@+id/bottle_swim_img"
+        android:layout_width="459dp"
+        android:layout_height="865dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/bottle_swim_anim"
+        android:contentDescription="@string/anim_three"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
     <TextView
         android:id="@+id/TimeLock"
         android:layout_width="wrap_content"
@@ -52,11 +87,49 @@
         android:layout_marginEnd="165dp"
         android:layout_marginRight="165dp"
         android:layout_marginBottom="15dp"
+        android:contentDescription="@string/locksymbol"
         app:layout_constraintBottom_toTopOf="@+id/TimeLock"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lock"
-        android:contentDescription="@string/locksymbol" />
+        app:srcCompat="@drawable/lock" />
+
+    <ImageView
+        android:id="@+id/bottle_png"
+        android:layout_width="0dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:layout_marginBottom="33dp"
+        android:contentDescription="@string/bottle_png"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/name_sender"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bottle" />
+
+    <TextView
+        android:id="@+id/name_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/sender"
+        android:text="@string/from_diane"
+        android:textSize="18sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bottle_png"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
